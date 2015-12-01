@@ -18,18 +18,23 @@ body
 
 
 #Recherche {
-	
+	padding : 0 px;
 	font: 15px Arial,Verdana,sans-serif;
 	color: grey;
-
     position: absolute;
     right: 30%;
     top: 34px;
 }
 
+#Recherche #motclef
+{
+	border: 2px solid grey;
+	height: 22px;
+}
+
 #Recherche [value=Rechercher] {
 	border-radius: 0px 7px 7px 00px;
-	vertical-align: bottom;
 	font: 15px Arial,Verdana,sans-serif;
-	border: 3px solid black;
+	border: 3px solid #585858;
+	height: 27px;
 }
