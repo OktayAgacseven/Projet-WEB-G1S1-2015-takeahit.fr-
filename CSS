@@ -1,40 +1,75 @@
 body
 {
 	font-family:"Georgia";	
-	background-image: url(http://cdn01.wallconvert.com/_media/conv/1/24/235218-colorful-smoke.jpg);
+	background-image: url("fond1.jpg");
 	
 }
+
 
 #Principale
 {
 	background-color: rgba(100, 100, 105, 0.5);
 	border: 10 px;
-
+	padding : 10px;
 	height: 212px; 
 	margin : 150px 100px 150px 100px;
-
 	
 }
 
 
+
+/* ICI TOUT CE QUI CONCERNE LA RECHERCHE */
 #Recherche {
-	padding : 0 px;
-	font: 15px Arial,Verdana,sans-serif;
-	color: grey;
+	display : inline-block;
     position: absolute;
-    right: 30%;
+    right: 3%;
     top: 34px;
 }
-
-#Recherche #motclef
-{
+#Recherche #motclef {
 	border: 2px solid grey;
-	height: 22px;
-}
 
-#Recherche [value=Rechercher] {
-	border-radius: 0px 7px 7px 00px;
+}
+#Recherche #rechb {
+	border-radius: 0px 7px 7px 0px;
+	font: 15px Arial,Verdana,sans-serif;
+	border: 2px solid #585858;
+
+
+}
+/* ************************************ */
+
+
+
+
+/* LA BARRE EN HAUT */
+.buttonb	 { /* bouton de la barre */
+
+	border-radius: 7px;
 	font: 15px Arial,Verdana,sans-serif;
 	border: 3px solid #585858;
-	height: 27px;
+}
+#barre { /* la barre */
+	
+	
+	background-color: rgba(100, 100, 100, 0.5);
+}
+#barre ul { 
+	margin : 10px 0px 0px 50px;
+	padding : 5px;
+	
+}
+#barre li {
+	display : inline;
+	list-style-type: none;
+	border-radius: 7px;
+	font: 15px Arial,Verdana,sans-serif;
+	
+}
+#panier
+{
+background-image:url(stack.png);
+background-position:left;
+background-repeat:no-repeat;
+
+
 }
