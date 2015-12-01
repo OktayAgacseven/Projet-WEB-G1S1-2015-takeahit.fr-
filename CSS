@@ -1,0 +1,13 @@
+body
+{
+    font-family: "Georgia";
+    background-image: url("gradient-colored-smoke-13587.jpg");
+}
+
+
+#Principale
+{
+    background-color: rgba(100, 100, 105, 0.5);
+    height: 212px;
+    margin: 150px 150px 10px 80px;
+}
