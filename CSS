@@ -1,13 +1,35 @@
 body
 {
-    font-family: "Georgia";
-    background-image: url("gradient-colored-smoke-13587.jpg");
+	font-family:"Georgia";	
+	background-image: url(http://cdn01.wallconvert.com/_media/conv/1/24/235218-colorful-smoke.jpg);
+	
 }
-
 
 #Principale
 {
-    background-color: rgba(100, 100, 105, 0.5);
-    height: 212px;
-    margin: 150px 150px 10px 80px;
+	background-color: rgba(100, 100, 105, 0.5);
+	border: 10 px;
+
+	height: 212px; 
+	margin : 150px 100px 150px 100px;
+
+	
+}
+
+
+#Recherche {
+	
+	font: 15px Arial,Verdana,sans-serif;
+	color: grey;
+
+    position: absolute;
+    right: 30%;
+    top: 34px;
+}
+
+#Recherche [value=Rechercher] {
+	border-radius: 0px 7px 7px 00px;
+	vertical-align: bottom;
+	font: 15px Arial,Verdana,sans-serif;
+	border: 3px solid black;
 }
