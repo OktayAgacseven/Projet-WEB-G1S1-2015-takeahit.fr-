@@ -49,19 +49,22 @@ body
 
 #barre { /* la barre */
 	background-color: rgba(100, 100, 100, 0.5);
+	padding-top: 5px;
 	padding-bottom: 5px;
 
 }
 #barre #menu1 { 
-	margin-top : 10px;
+	display : inline;
 	margin-left: 60px;
-	padding-top : 5px;
-}
-#barre #menu2 { 
 
-	text-align:right;
-	margin-right: 10px;
-	padding-top : 5px;
+}
+
+#barre #menu2 { 
+	display : inline;
+
+
+	float:right;
+	margin:0 100px 0px 0px;
 }
 
 
@@ -70,8 +73,7 @@ body
 	list-style-type: none;
 	border-radius: 7px;
 	font: 15px Arial,Verdana,sans-serif;
-}
-
+	
 }
 
 #panier
@@ -80,5 +82,9 @@ background-image:url(stack.png);
 background-position:left;
 background-repeat:no-repeat;
 }
+
+
+
+
 
 
