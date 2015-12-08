@@ -1,222 +1,84 @@
-body
-{
-	font-family:"Georgia";	
-	background-image: url("fond1.jpg");
-	vertical-align:middle;
-}
-
-#bn_image
-{
-	display: block;
-	margin : 0 auto;
-	margin-top: 10px;
-    height: 270px;
-	width: 860px;
-    border-radius: 10px;
-    background: url(banniere.png) no-repeat;
-    position: relative;
-
-}
-
-#bn_description
-{
-	text-align: right;
-	padding-top:100px;
-	font-style: italic;
-	color: white;
-	padding: 230px 30px 0px 0px;
-}
+	<!DOCTYPE html>
+	<html>
+	  <head>
+		<meta charset="iso8859-1">
+		<link rel="stylesheet" type="text/css" href="style.css" charset="utf-8">
+		<title>Take a hit</title>
+	  </head>
+	  
+		 	
+		
+<body>
 
 
-
-
-#Principale
-{
-	background-color: rgba(100, 100, 105, 0.5);
-	border: 10px;
-	padding : 10px;
-	height: 212px; 
-	margin : 0px 100px 150px 100px;
+		
 	
-}
+	<div id="barre1">
+		<ul id="menu1">
+			<li><input value="Identifiez-vous" class="buttonb" type="submit"></li>
+			<li><input id="panier" value="   | Mon panier" class="buttonb" type="submit"></li>
+		</ul>
 
-
-
-/* ICI TOUT CE QUI CONCERNE LA RECHERCHE */
-#Recherche {
+		
+		<div id="Recherche">
+			<form action="recherche.html">
+				<input id="motclef" value="Entrez un mot-clef" maxlength="255" type="text" onFocus="this.value=''">
+				<input id="rechb" value="Rechercher" class="button" type="submit">				
+			</form>
+		</div> <!-- Recherche -->
 	
-    display: inline-block;
 	
+		<ul id="menu2">
+			<li><a href="#">Devises</a>
+				<ul>					
+					<li><a class=choix href="#"><img src="choix/euro.png" alt="Mountain View">	EUR</a></li>
+					<li><a class=choix href="#"><img src="choix/dollar.png" alt="Mountain View">		USD</a></li>
+				</ul>
+			</li>
 
-
-
-}
-#Recherche #motclef {
-	border: 2px solid grey;
-}
-#Recherche #rechb {
-	border-radius: 0px 7px 7px 0px;
-	font: 15px Arial,Verdana,sans-serif;
-	border: 3px solid #585858;
-}
-/* ************************************ */
-
-
-
-
-
-
-
-/* LA BARRE EN HAUT */
-.buttonb	 { /* bouton de la barre 1 */
-	border-radius: 7px;
-	font: 15px Arial,Verdana,sans-serif;
-	border: 3px solid #585858;
-	background-color : rgb(250,250,250);
-}
-.buttonb:hover, #rechb:hover	 { /* bouton de la barre 1 */
-	background-color : rgb(150,150,150);
-}
-
-#barre1 { /* la barre1 */
-
-	background-color: rgba(100, 100, 100, 0.5);
-	padding-top: 5px;
-	padding-bottom: 5px;
-
-}
-#barre1 #menu1 { 
-	display : inline;
-
-}
-#barre1 #menu2 { 
-	display : block;
+			<li><a href="#">Langues</a>
+			<ul>
+				<li><a class=choix href="#"><img src="choix/fr.png" alt="Mountain View">	Francais</a></li>
+				<li><a class=choix href="#"><img src="choix/us.png" alt="Mountain View">	Anglais</a></li>
+				<li><a class=choix href="#"><img src="choix/tr.png" alt="Mountain View">	Turc</a></li>
+			</ul>
+			</li>
+			</ul>
+		
+	</div>	
+	
+	
+	
+	
+	<div id="bn_image"> <div id="bn_description"> Smoke before breathing </div> </div>
+		
+	<!-- Ajouter barre : NARGUILE, CHARBON [...] F.A.Q., NOUS CONTACTER -->
+	
+	<div id="barre2">
+	<a class=b2 href="#">DADA</a>
+	<a class=b2 href="#">DADA1</a>
+	<a class=b2 href="#">DADA2</a>
+	<a class=b2 href="#">DADA3</a>
+	
+	</div>
+	
+	 
+	 
+	 
+	 <div id="Principale">
+	 
+		IMAGE : Promo
+	 
+		
 	
 
-}
-#barre1 li {
-	display : inline;
-	list-style-type: none;
-	border-radius: 7px;
-	font: 15px Arial,Verdana,sans-serif;
-}
-#menu2 a {
-	
-	text-decoration:none;
-	text-transform:inherit;
-	overflow:hidden;
-}
-#panier{
-background-image:url(stack.png);
-background-position:left;
-background-repeat:no-repeat;
-}
-
-#barre2 { /* la barre2 */
-text-decoration:none;
-
-background-color: rgba(25,25,25,0.5);
-font: 25px Arial,Verdana,sans-serif;
-color:white;
-margin:10px 100px 0 100px;
-padding: 0px 10px 0px 0px;
-}
-
-#barre2 a {
-	display: inline-block;
-
-}
-
-
-/* *********************************** */
-
-
-
-
-#menu2, #menu2 ul{
-	
-padding:0;
-margin:0;
-margin-right:100px;
-
-text-align:center;
-float:right;
-border-radius:0 0 8px 8px;
-
-}
-#menu2 li{
-display:inline-block;
-position:relative;
-
-	border-radius: 7px;
-	font: 15px Arial,Verdana,sans-serif;
-	border: 3px solid #585858;
-	background-color : rgb(250,250,250);
-	
-
-}
-#menu2 ul li{
-	
-display:inherit;
-border-radius:0;
-width:110px;
-min-width:100px;
-
-}
-
-#menu2 ul li:hover{
-border-color: rgb(50,50,50)	;
-
-}
-#menu2 ul li:last-child{
-border-radius:0 0 8px 8px;
-}
-#menu2 ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
-
-}
-#menu2 li:hover ul{
-max-height:150px;
-background-color : rgb(150,150,150);
-
-
-}
-/* background des liens menus */
-#menu2 li:not(:hover){
-
-background-color : rgb(250,250,250);	
-overflow: hidden;
-}
-
-/* background des liens menus et sous menus au survol */
-#menu2 li:hover {
-	background-color : rgb(150,150,150);
-
-}
-/* les a href */
-#menu2 a{
-text-decoration:none;
-padding:8px 32px;
-font-family:arial;
-color:black;
-}
-
-#menu2 .choix:active{
-color:white;
-font: bold;
-}
-
-#menu2 ul .choix{
-padding:0px;
-}
-
-
-
+		
+	 
+	 
+	 
+	 
+	 
+	 
+	</div> <!-- Principale -->  
+</body>
+</html>
