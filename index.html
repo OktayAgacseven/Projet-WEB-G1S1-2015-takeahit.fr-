@@ -1,12 +1,14 @@
-	<!DOCTYPE html>
-	<html>
+<!DOCTYPE html>
+<html>
 	  <head>
 		<meta charset="iso8859-1">
 		<link rel="stylesheet" type="text/css" href="style.css" charset="utf-8">
 		<title>Take a hit</title>
 	  </head>
-	  
-		 
+	
+
+
+
 		
 <body>
 
@@ -14,15 +16,15 @@
 	
 	<div class="barre1">
 		<ul id="menu1">
-			<li><input value="Identifiez-vous" class="buttonb" type="submit"></li>
-			<li><input id="panier" value="   | Mon panier" class="buttonb" type="submit"></li>
+			<li><a class="buttonb" href="#seco" title="Erreur, cette fonction est en construction"  onClick="">Identifiez-vous</a></li>
+			<li><a class="buttonb" href="#"> Mon panier</a></li>
 		</ul>
 
 		
 		<div id="Recherche">
 			<form action="recherche.html">
-				<input id="motclef" value="Entrez un mot-clef" maxlength="255" type="text" onFocus="this.value=''">
-				<input id="rechb" value="Rechercher" class="button" type="submit">				
+				<input id="motclef" value="Rechercher" maxlength="255" type="text" onFocus="this.value=''">
+							
 			</form>
 		</div> <!-- Recherche -->
 	
@@ -48,40 +50,140 @@
 	
 	
 	
-	<div id="bn_image"> <div id="bn_description"> Smoke before breathing </div> </div>
+	<a href="index.html"id="bn_image"> <div id="bn_description"> Smoke before breathing </div> </a>
 		
 	<!-- Ajouter barre : NARGUILE, CHARBON [...] F.A.Q., NOUS CONTACTER -->
 	
 	<div id="barre2">
-	<a class=b2 href="#">NARGUILES</a>
-	<a class=b2 href="#">GOUTS</a>
-	<a class=b2 href="#">CHARBONS</a>
-	<a class=b2 href="#">TUYAUX</a>
-	<a class=b2 href="#">ACCESSOIRES</a>
-	<a class=b2n href="#">NOUVEAUTES/SOLDES</a>
-	<a class=b2 href="#">F.A.Q.</a>
-	<a class=b2 href="#">Qui sommes-nous ?</a>	
+	<a class="b2" id="NARGUILE" href="#narguiles" >NARGUILES</a>
+	<a class="b2" id="GOUT" href="#gouts" >GOUTS</a>
+	<a class="b2" id="CHARBON" href="#charbons" >CHARBONS</a>
+	<a class="b2" id="TUYAU" href="#tuyaux" >TUYAUX</a>
+	<a class="b2" id="ACCESSOIRE" href="#accessoires" >ACCESSOIRES</a>
+	<a class="b2" id="b2n" href="#ns" >NOUVEAUTES & SOLDES</a>
+	<a class="b2" id="FAQ" href="#faqs" >F.A.Q.</a>
+	<a class="b2" id="QUI" href="#qsn">Qui sommes-nous ?</a>	
 	</div>
 	
-	 
-	 
-	 
-	 <div id="Principale">
-	 
+
+	
+<div class="pages">
+    <div class="page" id="narguiles">
+    narg
+    </div>
+	
+	
+    <div class="page" id="gouts">
+     gout1
+    </div>
+	
+    <div class="page" id="charbons">
+    charb1
+    </div>
+	
+	
+    <div class="page" id="tuyaux">
+     tuy1
+    </div>   
+	
+	<div class="page" id="accessoires">
+    acc1
+    </div>
+	
+	
+    <div class="page" id="ns">
+    ns1
+    </div>    
+	
+	<div class="page" id="faqs">
+    grosse narg
+    </div>
+	
+	
+    <div class="page" id="qsn">
+     qsn1
+    </div>	
+	
+	
+	
+	
+	
+    <div class="page" id="aceuil">
 		En attendant les soldes d'hiver, qui commenceront le 6 janvier 2016, anticipez et préparez vos achats en ajoutant vos chichas et accessoires préférés dans votre panier.
 		<br>Profitez également de promotions tout au long de l'année sur Takeahit en accédant à notre page Nouveautés & Soldes !
-	
-	 
-	 
-	</div> <!-- Principale -->  
+		
+    </div>
 	
 	
 	
+  </div>
+	
+	<div id="mesg">
+		<div class="concc" id="seco">
+				<a id="rtrco" href="index.html"> X </a>
+				
+			<form action="index.html">
+				
+			
+				<div id="connect">
+
+				<table class="sco">
+				<th>Connectez vous :</th>
+				
+				<tr><td class="tdco">
+				<input class="conn" value="Pseudo" maxlength="255" type="text" onFocus="this.value=''">
+				<input class="conn" value="Mot de passe" maxlength="255" type="password" onFocus="this.value=''">
+				<input class="connb" value="Se connecter" class="button" type="submit">	
+				</td></tr></table>
+				
+				</div>
+				
+				<div id="creer">
+				<table class="sco">
+				<th colspan="0"> Créer un compte :</th>
+				<tr><td class="tdco">
+				<input class="conn" value="Pseudo" maxlength="255" type="text" onFocus="this.value=''">
+				<input class="conn" value="Mot de passe" maxlength="255" type="text" onFocus="this.value=''">
+				</td>
+				<td rowspan="0">
+				<input class="connbsi" value="S'inscrire" class="button" type="submit">
+				</td>
+				</tr>	
+				<tr><td class="tdco">
+				<input class="conn" value="Email" maxlength="255" type="text" onFocus="this.value=''">
+				<input class="conn" value="Vérification du mdp" maxlength="255" type="text" onFocus="this.value=''">
+				</td></tr>
+				</table>
+				<form>
+				
+				</form>
+				</div>
+			</form>
+		</div>
+		<div class="aleert" id="welcolme2" style="display:none;">
+		
+		
+		</div>
+				
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
 	<footer class="main-footer">
 		<div class="barref">
-			<a class=b3 href="index.html">Take A Hit</a>
+			<a class=bn3 href="index.html">Take A Hit</a>
 			<a class=b3>-</a>
-			<a class=b3 href="#">Nous Contacter</a>
+			<a class=bn3 href="#">Nous Contacter</a>
 			<a class=b3>-</a>
 			<a class=b3>Copyright ©2015/2016</a>
 
