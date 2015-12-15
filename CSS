@@ -261,11 +261,11 @@ vertical-align:middle;
  .pages > :last-child, .pages > .page:target {
     background-color: rgba(100,100,100, 0.2);
 	border: 10px;
-	padding : 10px;
+	padding : 10px 40px 10px 40px;
 	margin : 0px 100px 90px 100px;
 	font: 18px Arial,Verdana,sans-serif;
 	color: dark;
-	min-height: 220px;
+	min-height: 300px;
 	
 	display: block;
   }
@@ -413,6 +413,50 @@ text-align:center;
 
 
 /************************/
+
+
+.promotionac ul, .promotionac li {
+color: white;
+list-style-type: none;
+}
+
+.promotionac ul {
+display: inline-block;
+border: 1px solid black;
+margin: 30px 10px 30px 10px;
+padding : 0px;
+background-color: grey;
+background-image: url( );
+background-repeat: no-repeat;
+width: 200px;
+height: 300px;
+}
+
+.imgpr {
+background-image: url('SHOP/Chichas/chicha-amy-deluxe-smoky.jpg');
+background-size: 200px 200px;
+min-height:200px;
+min-height:200px;
+padding: 0px;
+border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***** FOOT *******/
