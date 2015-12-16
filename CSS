@@ -304,8 +304,7 @@ vertical-align:middle;
 	padding : 15px;
 	background-color: #F2F2F2;	
 	border: 5px solid grey;
-	min-height:30%;
-	min-width:30%;
+
 	text-decoration:inherit;
 	display: none;
 	top: 10px;
@@ -407,7 +406,6 @@ text-align:center;
 
 #barre2 #b2n:hover {
     background-color:grey;
-    color:black;
 }
 
 
@@ -420,10 +418,22 @@ color: white;
 list-style-type: none;
 }
 
+.promotionac {
+	text-align:center;
+	background-color:rgba(100,100,100,0.5);
+	
+	margin: 30px 0px 30px 0px;
+	padding: 0px 70px 0px 70px;
+	background-image:url('SHOP/Special_Promotions.png');
+	background-repeat: no-repeat;
+	background-size: 69px 252px;
+	background-position: 35px 50%;
+}
+
 .promotionac ul {
 display: inline-block;
 border: 1px solid black;
-margin: 30px 10px 30px 10px;
+margin: 30px 5px 30px 5px;
 padding : 0px;
 background-color: grey;
 background-image: url( );
@@ -433,7 +443,6 @@ height: 300px;
 }
 
 .imgpr {
-background-image: url('SHOP/Chichas/chicha-amy-deluxe-smoky.jpg');
 background-size: 200px 200px;
 min-height:200px;
 min-height:200px;
@@ -442,14 +451,21 @@ border-bottom: 1px solid black;
 }
 
 
+#chicha-amy-deluxe-smoky .imgpr {
+background-image: url('SHOP/Chichas/chicha-amy-deluxe-smoky.jpg');
+}
 
+#chicha-oduman-n3 .imgpr {
+background-image: url('SHOP/Chichas/chicha-oduman-n3.jpg');
+}
 
+#tuyau-xl-amy-gold .imgpr {
+background-image: url('SHOP/Tuyaux/tuyau-xl-amy-gold.jpg');
+}
 
-
-
-
-
-
+#charbon-naturel-amy-gold-500g .imgpr {
+background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
+}
 
 
 
