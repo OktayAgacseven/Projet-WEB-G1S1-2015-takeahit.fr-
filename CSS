@@ -249,6 +249,16 @@ vertical-align:middle;
 /* ******************************************************************************** */
 
 
+.erreurp {
+	text-decoration: inherit;
+	display: block;
+	padding-top: 20px;
+	color: black;
+}
+
+
+
+
 
 
 
@@ -408,6 +418,19 @@ text-align:center;
     background-color:grey;
 }
 
+/**************************/
+
+#aceuil p:first-child {
+	color: #FF0040;
+	
+}
+
+#aceuil p {
+	padding: 0px;
+	margin: 10px 10px 0px 0px;
+	text-align: center;
+	
+}
 
 
 /************************/
@@ -427,46 +450,149 @@ list-style-type: none;
 	background-image:url('SHOP/Special_Promotions.png');
 	background-repeat: no-repeat;
 	background-size: 69px 252px;
-	background-position: 35px 50%;
+	background-position: 25px 50%;
 }
 
 .promotionac ul {
 display: inline-block;
 border: 1px solid black;
-margin: 30px 5px 30px 5px;
+margin: 35px 10px 35px 0px;
 padding : 0px;
 background-color: grey;
 background-image: url( );
 background-repeat: no-repeat;
 width: 200px;
-height: 300px;
+height: 290px;
+
+}
+
+.promotionac ul li {
+	padding-top: 5px;
+	
+}
+
+.promotionac .ancprix {
+	text-decoration: line-through;
+}
+
+.promotionac .cclk {
+	text-decoration: inherit;
+color: black;	
+	
+	
+}
+
+.nvprix {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FF0040;
+    text-shadow: 0px 0px 8px white;
+	margin-left: 20px;
 }
 
 .imgpr {
+
 background-size: 200px 200px;
-min-height:200px;
-min-height:200px;
-padding: 0px;
+min-height:190px;
+min-width: 200px;
 border-bottom: 1px solid black;
 }
 
+.imgpr {
+	
+	background-repeat: no-repeat;
+}
 
-#chicha-amy-deluxe-smoky .imgpr {
+
+.narguile-fumo-jar .imgpr {
+	
+	background-image: url('SHOP/Chichas/narguile-fumo-jar.jpg');
+}
+.chicha-amy-deluxe-smoky .imgpr {
 background-image: url('SHOP/Chichas/chicha-amy-deluxe-smoky.jpg');
 }
 
-#chicha-oduman-n3 .imgpr {
+.chicha-oduman-n3 .imgpr {
 background-image: url('SHOP/Chichas/chicha-oduman-n3.jpg');
 }
 
-#tuyau-xl-amy-gold .imgpr {
+.tuyau-xl-amy-gold .imgpr {
 background-image: url('SHOP/Tuyaux/tuyau-xl-amy-gold.jpg');
 }
 
-#charbon-naturel-amy-gold-500g .imgpr {
+.charbon-naturel-amy-gold-500g .imgpr {
 background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 }
 
+/*******************/
+
+.prod {
+	display: block;
+
+}
+
+.prod table {
+	display: block;
+	margin: 40px 20px 40px 20px;
+	padding: 5px;
+	height: 215px;
+	table-layout:fixed;
+	background-color: grey;
+	border-radius: 8px;
+}
+
+.prod .imgpr {
+	border-radius: 8px;	
+	height:198px;
+}
+
+.prod .desct {
+	text-align: center;
+	width: 70%;
+}
+
+.prod .titt {
+	font-weight: bold;
+}
+
+
+.prod p {
+	text-align: left;
+	margin-left: 50px;
+
+}
+
+.prod .prixt {
+	text-align: right;
+	width: 30%;
+	font-size: 30px;
+	padding-right: 20px;
+	vertical-align: bottom;
+}
+
+
+
+.prixt li {
+	padding-right: 0x;
+	margin-left: 10px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.comment {
+	background-image: url('comment.png');
+	background-repeat: no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
+
+.paanier {
+	background-image: url('stack.png');
+	background-repeat: no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
 
 
 
@@ -497,3 +623,4 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
