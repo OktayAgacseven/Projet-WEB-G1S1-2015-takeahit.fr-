@@ -1,302 +1,626 @@
-<!DOCTYPE html>
-<html>
-	  <head>
-		<meta charset="iso8859-1">
-		<link rel="stylesheet" type="text/css" href="style.css" charset="utf-8">
-		<title>Take a hit</title>
-	  </head>
-	
-	
+body
+{
+
+	font-family:"Georgia";	
+	background-image: url("fond2.jpg");
+	background-repeat: 	repeat;
+	background-size: 100% 100%;
+
+	margin: 0;
 
 	
-		
-<body>
+}
+html {
+	
+	height:100%;
+}
+#fond
+{
+		position: fixed;
+		top: 0;
+		left:0;
 
-	
-	
-	<div class="barre1">
-		<ul id="menu1">
-			<li><a class="buttonb" href="#seco" title="Erreur, cette fonction est en construction"  onClick="">Identifiez-vous</a></li>
-			<li><a class="buttonb" href="panier.html"> Mon panier (2)</a></li>
-		</ul>
-
-		
-		<div id="Recherche">
-			<form action="recherche.html">
-				<input id="motclef" value="Rechercher" maxlength="255" type="text" onFocus="this.value=''">
-							
-			</form>
-		</div> <!-- Recherche -->
-	
-	
-		<ul id="menu2">
-			<li><a href="#">Devises</a>
-				<ul>					
-					<li><a class=choix href="erreur.html"><img src="choix/euro.png" alt="Mountain View">	EUR</a></li>
-					<li><a class=choix href="erreur.html"><img src="choix/dollar.png" alt="Mountain View">		USD</a></li>
-				</ul>
-			</li>
-
-			<li><a href="#">Langues</a>
-			<ul>
-				<li><a class=choix href="erreur.html"><img src="choix/fr.png" alt="Mountain View">	Francais</a></li>
-				<li><a class=choix href="erreur.html"><img src="choix/us.png" alt="Mountain View">	Anglais</a></li>
-			</ul>
-			</li>
-			</ul>
-		
-	</div>	
-	
-	
-	
-	
-	<a href="index.html"id="bn_image"> <div id="bn_description"> Smoke before breathing </div> </a>
-		
-	<!-- Ajouter barre : NARGUILE, CHARBON [...] F.A.Q., NOUS CONTACTER -->
-	
-	<div id="barre2">
-	<a class="b2" id="NARGUILE" href="#narguiles" >NARGUILES</a>
-	<a class="b2" id="GOUT" href="#gouts" >GOUTS</a>
-	<a class="b2" id="CHARBON" href="#charbons" >CHARBONS</a>
-	<a class="b2" id="TUYAU" href="#tuyaux" >TUYAUX</a>
-	<a class="b2" id="ACCESSOIRE" href="#accessoires" >ACCESSOIRES</a>
-	<a class="b2" id="b2n" href="#ns" >NOUVEAUTES & SOLDES</a>
-	<a class="b2" id="QUI" href="#qsn">Qui sommes-nous ?</a>	
-	</div>
-	
-
-	
-<div class="pages">
+		opacity: 0.5;
+}
 
 
-    <div class="page" id="narguiles">
-	
-	
-		<div class="prod">
-		
-			<table class="chicha-oduman-n3">
-			<tr>
-			<td class="imgpr"></td>
-			<td class="desct">
-			<a class="titt">Oduman N3</a>
-			<p>La gamme Oduman s'agrandit avec la nouvelle chicha Oduman N3. Ce modèle de la marque vous séduira par son design sobre et son vaste vase en verre.</p>
-			</td>
-			<td class="prixt">199 €<br>
-			<ul><li class="comment"></li><li class="paanier"></li></ul>
-			</td>
-			</tr>
-			</table>
-		
-			
-			<table class="chicha-amy-deluxe-smoky">
-			<tr>
-			<td class="imgpr"></td>
-			<td class="desct">
-			<a class="titt">Amy Deluxe Smocky</a>
-			<p>La Smocky se démarque par son joli vase arrondi parsemé de lignes colorées, assorties au manche et au foyer. Il vous est livré avec tous les éléments : le foyer en céramique, l’assiette, la colonne en inox à visser, le vase épais, le tuyau, le kit de joints et la pince à charbon. Bref, le top pour vos déplacements!</p>
-			</td>
-			<td class="prixt">79 €
-			<ul><li class="comment"></li><li class="paanier"></li></ul></td>
-			</tr>
-			</table>
-		</div>
-    </div>
-	
-	
-	
-	
-	
-    <div class="page" id="gouts">
-    Aucun article disponible
-    </div>
-	
-    <div class="page" id="charbons">
-		<div class="prod">
-			<table class="charbon-naturel-amy-gold-500g">
-			<tr>
-			<td class="imgpr"></td>
-			<td class="desct">
-			<a class="titt">Amy Gold 500g</a>
-			<p>Conditionné en paquet de 500g, le charbon naturel Amy Gold est ce qui se fait de mieux en la matière.De petite taille à la manière des Al Fakher Flat, Il est particulièrement adapté aux petits foyers ainsi qu'au Lotus Kaloud.</p>
-			</td>
-			<td class="prixt">9 €
-			<ul><li class="comment"></li><li class="paanier"></li></ul></td>
-			</tr>
-			</table>
-		</div>
-    </div>
-	
-	
-    <div class="page" id="tuyaux">
-		<div class="prod">
-			<table class="tuyau-xl-amy-gold">
-			<tr>
-			<td class="imgpr"></td>
-			<td class="desct">
-			<a class="titt">X1 Amy Gold</a>
-			<p>Tuyau pour chicha Marrakech XL de la marque MS. Entièrement lavable avec tuyau en plastique et sa baguette métallique à liserés colorés. Longueur totale 190cm.</p>
-			</td>
-			<td class="prixt">9 €
-			<ul><li class="comment"></li><li class="paanier"></li></ul></td>
-			</tr>
-			</table>
-		</div>
-    </div>   
-	
-	<div class="page" id="accessoires">
-    Aucun article disponible
-    </div>
-	
-	
-    <div class="page" id="ns">
-    <div class="prod">
-			<table class="narguile-fumo-jar">
-			<tr>
-			<td class="imgpr"></td>
-			<td class="desct">
-			<a class="titt">Fumo JAR</a>
-			<p>La FUMO JAR a l'allure des grosses bombonnes qui abritaient jadis les friandises chez le boulanger. Quoique réalisée en verre, la JAR dégage une impression de soliditéé et offre une grande stabilité gràce au design massif de son corps.Aussi appelée FUMO JAR TRINITY, la JAR peut accueillir jusqu'à 3 tuyaux.</p>
-			</td>
-			<td class="prixt">279 €
-			<ul><li class="comment"></li><li class="paanier"></li></ul></td>
-			</tr>
-			</table>
-		</div>
-    </div>    
-	
-	
-    <div class="page" id="qsn">
-     qsn1
-    </div>	
-	
-	
-	
-	
-	
-    <div class="page" id="aceuil">
-		
-		<p>Toute l'équipe de Takeahit vous souhaite une année de bonheur et d'amour ! ♥</p>
-		<p>Avec les soldes d'hivers, préparez vos achats en ajoutant vos chichas et accessoires préférés dans votre panier</p>
-		<p>Profitez également de promotions tout au long de l'année sur Takeahit en accédant à notre page Nouveautés & Soldes !</p>
-		<div class="promotionac">
-			
-			<ul class="chicha-oduman-n3">
-				<li class="imgpr"></li>
-				<li><a class="cclk" href="#narguiles">Narguilé</a></li>
-				<li>Oduman N3</li>
-				<li><a class="ancprix">249 €</a> <a class="nvprix">199 €</a></li>
-			</ul>
-			
-			
-			<ul class="chicha-amy-deluxe-smoky">
-				<li class="imgpr"></li>
-				<li><a class="cclk" href="#narguiles">Narguilé</a></li>
-				<li>Army Deluxe Smoky</li>
-				<li><a class="ancprix">99 €</a> <a class="nvprix">79 €</a></li>
-			</ul>
-	
-		
-			<ul class="tuyau-xl-amy-gold">
-				<li class="imgpr"></li>
-				<li><a class="cclk" href="#tuyaux">Tuyau</a></li>
-				<li>X1 Amy Gold</li>
-				<li><a class="ancprix">29 €</a> <a class="nvprix">15 €</a></li>
-			</ul>
-			
-			
-			<ul class="charbon-naturel-amy-gold-500g">
-				<li class="imgpr"></li>
-				<li><a class="cclk" href="#charbons">Charbon naturel</a></li>
-				<li>Amy Gold 500g</li>
-				<li><a class="ancprix">19 €</a> <a class="nvprix">9 €</a></li>
-			</ul>
-
-		</div>
-		
-		
-		
-		
-		
-    </div>
-	
-	
-	
-  </div>
-	
-	<div id="mesg">
-		<div class="concc" id="seco">
-				<a id="rtrco" href="index.html"> X </a>
-				
-			<form action="erreur.html">
-				
-			
-				<div id="connect">
-
-				<table class="sco">
-				<th>Connectez vous :</th>
-				
-				<tr><td class="tdco">
-				<input class="conn" value="Pseudo" maxlength="255" type="text" onFocus="this.value=''">
-				<input class="conn" value="Mot de passe" maxlength="255" type="password" onFocus="this.value=''">
-				<input class="connb" value="Se connecter" class="button" type="submit">	
-				</td></tr></table>
-				
-				</div>
-				
-				<div id="creer">
-				<table class="sco">
-				<th colspan="0"> Créer un compte :</th>
-				<tr><td class="tdco">
-				<input class="conn" value="Pseudo" maxlength="255" type="text" onFocus="this.value=''">
-				<input class="conn" value="Mot de passe" maxlength="255" type="text" onFocus="this.value=''">
-				</td>
-				<td rowspan="0">
-				<input class="connbsi" value="S'inscrire" class="button" type="submit">
-				</td>
-				</tr>	
-				<tr><td class="tdco">
-				<input class="conn" value="Email" maxlength="255" type="text" onFocus="this.value=''">
-				<input class="conn" value="Vérification du mdp" maxlength="255" type="text" onFocus="this.value=''">
-				</td></tr>
-				</table>
-				<form>
-				
-				</form>
-				</div>
-			</form>
-		</div>
-		<div class="aleert" id="welcolme2" style="display:none;">
-		
-		
-		</div>
-				
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 
-	<footer class="main-footer">
-		<div class="barref">
-			<a class=bn3 href="index.html">Take A Hit</a>
-			<a class=b3>-</a>
-			<a class=bn3 href="contact.html">Nous Contacter</a>
-			<a class=b3>-</a>
-			<a class=b3>Copyright ©2015/2016</a>
+/* LA BANNIERE */
+#bn_image{
+	text-decoration:inherit;
+	display: block;
+	margin : 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    height: 270px;
+	width: 860px;
+    border-radius: 10px;
+    background: url(banniere.png) no-repeat;
+    position: relative;
+	
+}
+#bn_description{
+	text-decoration:inherit;
+	font-size: 18px;
+	text-align: right;
+	padding-top:100px;
+	font-style: italic;
+	color: #FF0040;
+	padding: 230px 30px 0px 0px;
+}
+/* ************* */
 
-		</div>
+
+
+
+
+
+
+
+
+
+
+
+/* ICI TOUT CE QUI CONCERNE LA RECHERCHE */
+#Recherche {
+	vertical-align: middle;
+    display: inline-block;
+}
+#Recherche #motclef {
+	border: 2px solid grey;
+	background-image: url(fond2.jpg);
+	font-style: bold;
+	font: 15px Arial,Verdana,sans-serif;
+	color: white;
+	padding-left : 5px;
+
+}
+#Recherche #rechb {
+
+	border-radius: 0px 7px 7px 0px;
+	font: 15px Arial,Verdana,sans-serif;
+	border: 3px solid grey;
+	background-color : rgb(250,250,250);
+
+
+}
+#Recherche #rechb:hover {
+	background-color : rgb(150,150,150);
+}
+
+
+
+/* ************************************ */
+
+
+
+
+
+
+
+
+/* BOUTONS */
+.buttonb	 { /* bouton de la barre 1 */
+	text-decoration: inherit;
+	color: black;
+	border-radius: 7px;
+	font: 15px Arial,Verdana,sans-serif;
+	border: 3px solid grey;
+	background-color : rgb(250,250,250);
+	padding: 1px 10px 1px 10px;
+}
+
+.buttonb:hover, #rechb:hover	 { /* bouton de la barre 1 */
+	background-color : rgb(150,150,150);
+}
+
+
+/**********/
+
+
+
+
+
+
+
+
+/******** BARRE 1 *********/
+.barre1 { 
+
+	background-color: rgba(80,80,80, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+.barre1 #menu1 { 
+	display : inline;
+
+}
+.barre1 #menu2 { 
+	display : block;
 	
-	</footer>
+
+}
+.barre1 li {
+	display : inline;
+	list-style-type: none;
+	border-radius: 7px;
+	font: 15px Arial,Verdana,sans-serif;
+}
+#menu2 a {
+	
+	text-decoration:none;
+	text-transform:inherit;
+	overflow:hidden;
+}
+#panier{
+background-image:url(stack.png);
+background-position:left;
+background-repeat:no-repeat;
+}
+/**************************/
+
+
+
+
+
+
+
+/* ****************        ANIMATIONS DEVISES ET LANGUES      ******************* */
+#menu2, #menu2 ul{
+vertical-align:middle;	
+padding:0;
+margin:0;
+margin-right:60px;
+
+text-align:center;
+float:right;
+border-radius:0 0 8px 8px;
+
+}
+
+
+#menu2 li{
+display:inline-block;
+position:relative;
+	border-radius: 7px;
+	font: 15px Arial,Verdana,sans-serif;
+	border: 3px solid grey;
+	background-color : rgb(250,250,250);
+	
+}
+#menu2 ul li{	
+display:inherit;
+border-radius:0;
+width:85px;
+min-width:85px;
+
+}
+#menu2 ul li:hover{
+border-color: rgb(50,50,50)	;
+
+
+}
+#menu2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+
+}
+#menu2 li:hover ul{
+max-height:150px;
+background-color : rgb(150,150,150);
+
+}
+/* background des liens menus */
+#menu2 li:not(:hover){
+
+background-color : rgb(250,250,250);	
+overflow: hidden;
+
+}
+/* background des liens menus et sous menus au survol */
+#menu2 li:hover {
+	background-color : rgb(150,150,150);
+}
+/* les a href */
+#menu2 a{
+text-decoration:none;
+padding:8px 20px;
+font-family:arial;
+color:black;
+
+}
+#menu2 .choix:active{
+color:white;
+font: bold;
+
+}
+#menu2 ul .choix{
+padding:0px;
+vertical-align:middle;
+}
+/* ******************************************************************************** */
+
+
+.erreurp {
+	text-decoration: inherit;
+	display: block;
+	padding-top: 20px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+  
+ .pages > .page:target ~ .page:last-child, .pages > .page {
+    display: none;
+  }
+  
+ .pages > :last-child, .pages > .page:target {
+    background-color: rgba(100,100,100, 0.2);
+	border: 10px;
+	padding : 10px 40px 10px 40px;
+	margin : 0px 100px 90px 100px;
+	font: 18px Arial,Verdana,sans-serif;
+	color: dark;
+	min-height: 300px;
+	
+	display: block;
+  }
+
+.aleert {
+	border-radius: 3px;
+	padding : 15px;
+	background-color: white;	
+	border: 5px solid grey;
+	min-height:30%;
+	min-width:30%;
+	text-decoration:inherit;
+	display: none;
+	top: 10px;
+	margin-left: 34%	;
+	margin-top:15%;
+
+	position: fixed;	
+
+	
+}
+/* dqs dq*/
+.aleert:target {
+	display: block;
+}
+
+.aleert:not(body:active)
+{
+	display: none;
+}
+
+
+.concc {
+
+	border-radius: 3px;
+	padding : 15px;
+	background-color: #F2F2F2;	
+	border: 5px solid grey;
+
+	text-decoration:inherit;
+	display: none;
+	top: 10px;
+	margin-left: 34%	;
+	margin-top:15%;
+
+	position: fixed;	
+
+	
+}
+/* dqs dq*/
+.concc:target {
+	display: block;
+}
+
+.concc:target 	#fermersco:active
+{
+	display: none;
+}
+
+.conn, .connb, .connbsi {
+	min-width: 100px;
 	
 	
+}
+
+.sco {
 	
-</body>
-</html>
+	padding: 15px 20px 20px 20px;
+	
+}
+
+
+.connb, .connbsi {
+	vertical-align: center;
+}
+
+.connbsi {
+	min-height: 52px;
+	
+}
+
+
+#connect #creer{
+
+display: block;
+  position:relative;
+
+
+  	margin : 5px;
+	
+}
+
+#rtrco {
+	
+	text-decoration: inherit;
+	color: white;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	border: 1px solid black;
+	margin-top: 2px;
+	padding: 0px 3px 0px 3px;
+	background-color: grey;
+	font-family: Arial;
+}
+
+
+/******** BARRE 2 *********/
+#barre2 { /* la barre2 */
+background-color: #424242;
+color:white;
+margin:10px 100px 0 100px;	
+text-align:center;
+}
+
+#b2n{
+	text-decoration: inherit;
+	color: rgb(255,0,64);
+	display: inline-block;
+	padding: 3px 6px 3px 6px;
+	margin: 0px;
+	font: 18px Arial,Verdana,sans-serif;
+}
+
+#barre2 a:not([id="b2n"]){
+	text-decoration: inherit;
+	color:white;
+	display: inline-block;
+	padding: 3px 6px 3px 6px;
+	margin: 0px;
+	font: 18px Arial,Verdana,sans-serif;
+}
+
+#barre2 a:not([id="b2n"]):hover {
+    background-color:grey;
+    color:black;
+}
+
+#barre2 #b2n:hover {
+    background-color:grey;
+}
+
+/**************************/
+
+#aceuil p:first-child {
+	color: #FF0040;
+	
+}
+
+#aceuil p {
+	padding: 0px;
+	margin: 10px 10px 0px 0px;
+	text-align: center;
+	
+}
+
+
+/************************/
+
+
+.promotionac ul, .promotionac li {
+color: white;
+list-style-type: none;
+}
+
+.promotionac {
+	text-align:center;
+	background-color:rgba(100,100,100,0.5);
+	
+	margin: 30px 0px 30px 0px;
+	padding: 0px 70px 0px 70px;
+	background-image:url('SHOP/Special_Promotions.png');
+	background-repeat: no-repeat;
+	background-size: 69px 252px;
+	background-position: 25px 50%;
+}
+
+.promotionac ul {
+display: inline-block;
+border: 1px solid black;
+margin: 35px 10px 35px 0px;
+padding : 0px;
+background-color: grey;
+background-image: url( );
+background-repeat: no-repeat;
+width: 200px;
+height: 290px;
+
+}
+
+.promotionac ul li {
+	padding-top: 5px;
+	
+}
+
+.promotionac .ancprix {
+	text-decoration: line-through;
+}
+
+.promotionac .cclk {
+	text-decoration: inherit;
+color: black;	
+	
+	
+}
+
+.nvprix {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FF0040;
+    text-shadow: 0px 0px 8px white;
+	margin-left: 20px;
+}
+
+.imgpr {
+
+background-size: 200px 200px;
+min-height:190px;
+min-width: 200px;
+border-bottom: 1px solid black;
+}
+
+.imgpr {
+	
+	background-repeat: no-repeat;
+}
+
+
+.narguile-fumo-jar .imgpr {
+	
+	background-image: url('SHOP/Chichas/narguile-fumo-jar.jpg');
+}
+.chicha-amy-deluxe-smoky .imgpr {
+background-image: url('SHOP/Chichas/chicha-amy-deluxe-smoky.jpg');
+}
+
+.chicha-oduman-n3 .imgpr {
+background-image: url('SHOP/Chichas/chicha-oduman-n3.jpg');
+}
+
+.tuyau-xl-amy-gold .imgpr {
+background-image: url('SHOP/Tuyaux/tuyau-xl-amy-gold.jpg');
+}
+
+.charbon-naturel-amy-gold-500g .imgpr {
+background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
+}
+
+/*******************/
+
+.prod {
+	display: block;
+
+}
+
+.prod table {
+	display: block;
+	margin: 40px 20px 40px 20px;
+	padding: 5px;
+	height: 215px;
+	table-layout:fixed;
+	background-color: grey;
+	border-radius: 8px;
+}
+
+.prod .imgpr {
+	border-radius: 8px;	
+	height:198px;
+}
+
+.prod .desct {
+	text-align: center;
+	width: 70%;
+}
+
+.prod .titt {
+	font-weight: bold;
+}
+
+
+.prod p {
+	text-align: left;
+	margin-left: 50px;
+
+}
+
+.prod .prixt {
+	text-align: right;
+	width: 30%;
+	font-size: 30px;
+	padding-right: 20px;
+	vertical-align: bottom;
+}
+
+
+
+.prixt li {
+	padding-right: 0x;
+	margin-left: 10px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.comment {
+	background-image: url('comment.png');
+	background-repeat: no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
+
+.paanier {
+	background-image: url('stack.png');
+	background-repeat: no-repeat;
+	min-width: 50px;
+	min-height: 50px;
+}
+
+
+
+
+
+
+
+
+/***** FOOT *******/
+.b3, .bn3 {
+	font-size:15px;
+	text-decoration: inherit;
+	color: black;
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+}
+
+
+.bn3:hover  {
+
+	color: white;
+
+}
+
+.barref {
+	text-align:center;	
+	background-color: rgba(80,80,80, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
