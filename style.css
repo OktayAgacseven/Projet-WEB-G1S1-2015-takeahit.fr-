@@ -298,14 +298,6 @@ vertical-align:middle;
 	
 }
 /* dqs dq*/
-.aleert:target {
-	display: block;
-}
-
-.aleert:not(body:active)
-{
-	display: none;
-}
 
 
 .concc {
@@ -382,6 +374,10 @@ display: block;
 	font-family: Arial;
 }
 
+#commder div, #ajtpan div, #cmtr div{
+	margin: 30px;
+	text-align: center
+}
 
 /******** BARRE 2 *********/
 #barre2 { /* la barre2 */
@@ -420,18 +416,23 @@ text-align:center;
 
 /**************************/
 
-#aceuil p:first-child {
+#aceuil p:first-child, #aceuil2 p:first-child{
 	color: #FF0040;
 	
 }
 
-#aceuil p {
+#aceuil p, #aceuil2 p{
 	padding: 0px;
 	margin: 10px 10px 0px 0px;
 	text-align: center;
 	
 }
 
+#aceuil2 {
+	
+	height: 730px;
+	
+}
 
 /************************/
 
@@ -529,7 +530,7 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 
 .prod {
 	display: block;
-
+	overflow: hidden;
 }
 
 .prod table {
@@ -568,16 +569,17 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 	width: 30%;
 	font-size: 30px;
 	padding-right: 20px;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 
 
 
-.prixt li {
+.prixt a {
 	padding-right: 0x;
 	margin-left: 10px;
 	display: inline-block;
 	list-style-type: none;
+	margin-top: 80px;	
 }
 
 .comment {
@@ -587,6 +589,7 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 	min-height: 50px;
 }
 
+
 .paanier {
 	background-image: url('stack.png');
 	background-repeat: no-repeat;
@@ -595,11 +598,101 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 }
 
 
+/*********** PANIER *********/
+
+.paniera {
+	
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 850px;
+	background-color: rgb(230,230,230);
+	border-collapse: collapse;
+
+}
+
+.paniera td {
+	border-bottom: 1px solid black;
+	padding: 3px;
+}
 
 
 
 
+.paniera td:last-child {
+	
+	text-align: right;
+}
 
+
+.paniera tr:first-child {
+	
+	font-weight: bold;
+	background-color: rgb(200,200,200);
+}
+
+.paniera tr:last-child td:last-child {
+	font-weight: bold;
+	
+}
+
+#cmdd {
+margin: 10px 100px 10px 100px;
+float: right;
+	
+}
+
+/****************/
+
+
+/* FORMULAIRE */
+.formlr {
+	
+	background-color: grey;
+	padding : 10px;
+	margin: 50px auto;
+	width: 600px;
+	height: 400px;
+	
+}
+
+.formlr p {
+text-decoration: inherit;
+text-align: center;
+font-weight: bold;
+color: 000;	
+	
+}
+
+.formlr .infos{
+	
+	margin: 20px;
+	
+}
+
+.formlr .cmtt {
+
+	float: right;
+	width: 600px;
+	height: 50px;
+	max-width:560px;
+}
+
+
+.cmt2 {
+	margin-top:10px;	
+	float: right;
+	width: 560px;
+	height: 180px;
+	max-height:180px;
+	max-width:560px;
+	
+}
+.formlr [type=text] {
+	
+	float: right;
+	width: 300px;
+}
 
 /***** FOOT *******/
 .b3, .bn3 {
