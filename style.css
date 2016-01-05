@@ -275,7 +275,7 @@ vertical-align:middle;
 	margin : 0px 100px 90px 100px;
 	font: 18px Arial,Verdana,sans-serif;
 	color: dark;
-	min-height: 300px;
+	min-height: 500px;
 	
 	display: block;
   }
@@ -414,6 +414,42 @@ text-align:center;
     background-color:grey;
 }
 
+
+/*************** *****************/
+
+
+@media only screen and (max-width: 1000px) {
+	
+	p {
+	color: red;
+	}
+	
+	.b2, #barre2 a {
+	display : inline;
+	}
+
+	
+	.promotionac ul{
+	display : inline-block;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**************************/
 
 #aceuil p:first-child, #aceuil2 p:first-child{
@@ -421,10 +457,11 @@ text-align:center;
 	
 }
 
-#aceuil p, #aceuil2 p{
+#aceuil p, #aceuil2 p, #aceuil a{
 	padding: 0px;
 	margin: 10px 10px 0px 0px;
 	text-align: center;
+	text-decoration: inherit;
 	
 }
 
@@ -441,6 +478,12 @@ text-align:center;
 color: white;
 list-style-type: none;
 }
+
+.promotionac  :hover 
+{
+background-color: #424242;
+}
+
 
 .promotionac {
 	text-align:center;
@@ -478,17 +521,17 @@ height: 290px;
 
 .promotionac .cclk {
 	text-decoration: inherit;
-color: black;	
-	
+color: white;	
+	font-weight: bold;
 	
 }
 
 .nvprix {
 	font-style: italic;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	color: #FF0040;
-    text-shadow: 0px 0px 8px white;
+    text-shadow: 0px 0px 10px white;
 	margin-left: 20px;
 }
 
@@ -533,6 +576,12 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 	overflow: hidden;
 }
 
+.prod  table:hover{
+border: 3px solid black;
+	padding: 2px;
+}
+
+
 .prod table {
 	display: block;
 	margin: 40px 20px 40px 20px;
@@ -541,6 +590,7 @@ background-image: url('SHOP/Charbons/charbon-naturel-amy-gold-500g.jpg');
 	table-layout:fixed;
 	background-color: grey;
 	border-radius: 8px;
+		overflow: hidden;	
 }
 
 .prod .imgpr {
