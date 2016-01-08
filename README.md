@@ -1,4 +1,4 @@
- # projetweb
+PROJET WEB
 
 Ceci est le GIT en vu du projet en cours de WEB du Semestre 1 de 2015/2016.
 
